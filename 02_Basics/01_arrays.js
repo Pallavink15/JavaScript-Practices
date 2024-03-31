@@ -25,13 +25,16 @@ console.log(myArr[0]);
 
 //******* slice, splice *****************88
 
+/*
 console.log("A ", myArr)
 
-const myn1 = myArr.slice(1,3)
-
+const myn1 = myArr.slice(1,3) // works on copy
 console.log(myn1)
+
 console.log("B ", myArr)
 
-const myn2 = myArr.splice(1,3)
-console.log("C ", myArr)
-console.log(myn2)
+const myn2 = myArr.splice(1,3) // removes the range
+console.log("C ", myArr) // splice manupulates on original array
+console.log(myn2);
+*/
+
